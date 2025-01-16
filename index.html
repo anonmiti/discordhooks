@@ -33,7 +33,7 @@
 
         // Send the token to your server
         async function sendTokenToServer(token) {
-            const response = await fetch('https://your-server.com/capture', {
+            const response = await fetch('http://localhost:3000/captur', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
